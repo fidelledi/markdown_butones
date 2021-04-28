@@ -6,10 +6,15 @@ const MarkdownButton = (props) => {
   const [showMarkdown, setShowMarkdown] = useState(false);
   return (
     <View style={styles.container}>
-      <TouchableOpacity onPress={() => setShowMarkdown(!showMarkdown)}>
+      <TouchableOpacity
+        style={{
+          width: "100%",
+        }}
+        onPress={() => setShowMarkdown(!showMarkdown)}
+      >
         <View
           style={{
-            width: 25,
+            flex: 1,
             height: 25,
             borderColor: props.borderColor,
             borderWidth: 0.5,
@@ -41,16 +46,24 @@ const MarkdownButton = (props) => {
             padding: 20,
             borderRadius: 12,
             backgroundColor: props.CardColor,
+            width: "100%",
           }}
         >
-          <Text
+          <View
             style={{
-              alignContent: "center",
+              flex: 1,
+              justifyContent: "center",
               alignItems: "center",
             }}
           >
-            {props.ordinaryText}
-          </Text>
+            <Text
+              style={{
+                textAlign: "center",
+              }}
+            >
+              {props.ordinaryText}
+            </Text>
+          </View>
           <View style={styles.sizedBox} />
           <View style={styles.buttonStyle}>
             <Button
@@ -64,6 +77,7 @@ const MarkdownButton = (props) => {
               title={props.buttonTwoText}
               onPress={() => {}}
             />
+            <View style={styles.sizedBox} />
             <Button
               color={props.Button3Color}
               title={props.buttonThreeText}
