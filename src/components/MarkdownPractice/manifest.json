@@ -1,0 +1,87 @@
+{
+  "displayName": "markdownPractice",
+  "defaultWidth": 100,
+  "defaultHeight": 100,
+  "components": "./index.js",
+  "icon": "./example-thumbnail.png",
+  "props": [
+    {
+      "name": "ordinaryText",
+      "displayName": "Text",
+      "type": "text",
+      "default": "Lorem ipsum dolor"
+    },
+    {
+      "name": "iconColor",
+      "displayName": "Icon Color",
+      "type": "color",
+      "default": "#517fa4"
+    },
+    {
+      "name": "buttonBGColor",
+      "displayName": "Button Background Color",
+      "type": "color",
+      "default": "@secondary"
+    },
+    {
+      "name": "CardColor",
+      "displayName": "Card Background Color",
+      "type": "color",
+      "default": "@secondary"
+    },
+    {
+      "name": "shadowColor",
+      "displayName": "Shadow Color",
+      "type": "color",
+      "default": "#808080"
+    },
+    {
+      "name": "borderColor",
+      "displayName": "Border Color",
+      "type": "color",
+      "default": "#696969"
+    },
+    {
+      "name": "cardColor",
+      "displayName": "Card Color",
+      "type": "color",
+      "default": "#F7F7FC"
+    },
+    {
+      "name": "buttonOneText",
+      "displayName": "Button 1 Text",
+      "type": "text",
+      "default": "Button 1"
+    },
+    {
+      "name": "Button1Color",
+      "displayName": "Button 1 Color",
+      "type": "color",
+      "default": "#F8CD81"
+    },
+    {
+      "name": "buttonTwoText",
+      "displayName": "Button 2 Text",
+      "type": "text",
+      "default": "Button 2"
+    },
+    {
+      "name": "Button2Color",
+      "displayName": "Button 2 Color",
+      "type": "color",
+      "default": "#D17B47"
+    },
+    {
+      "name": "buttonThreeText",
+      "displayName": "Button 3 Text",
+      "type": "text",
+      "default": "Button 3"
+    },
+    {
+      "name": "Button3Color",
+      "displayName": "Button 3 Color",
+      "type": "color",
+      "default": "#F8CD81"
+    }
+  ]
+}
